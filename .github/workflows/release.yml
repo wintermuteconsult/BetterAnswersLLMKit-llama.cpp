@@ -6,24 +6,22 @@
 # SPDX-License-Identifier: MIT
 #
 
-name: Build XCArchive
+name: Create XCFramework and Release
 
 on:
-  pull_request:
   workflow_dispatch:
-  workflow_call:
     inputs:
       version:
-        description: 'The version number of the framework embedded in the XCArchives.'
+        description: 'The version number of the framework embedded in the XCArchives. This version number is also used as the release tag.'
         type: string
         required: true
 
 jobs:
-  build-xcarchive:
-    uses: StanfordBDHG/.github/.github/workflows/archive.yml@v2
+  create-xcframework-and-release-workflow:
+    uses: StanfordBDHG/.github/.github/workflows/xcframework.yml@v2
     with:
       workspaceFile: 'llama.xcworkspace'
-      xcArchiveName: 'llama'
+      xcFrameworkName: 'llama'
       scheme: 'llama'
       version: ${{ inputs.version }}
       configuration: 'Release'
