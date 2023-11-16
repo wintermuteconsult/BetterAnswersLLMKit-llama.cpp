@@ -7,7 +7,13 @@
 //
 
 framework module llama {
-    umbrella "."
+  umbrella header "llama.h"
 
-    export *
+  header "common.h"
+  header "sampling.h"
+  header "log.h"
+  header "grammar-parser.h"
+
+  export *
+  module * { export * }
 }
