@@ -1,6 +1,19 @@
+//
+// This source file is part of the Stanford Biodesign Digital Health Group open-source organization
+//
+// SPDX-FileCopyrightText: 2022 Stanford University and the project authors (see CONTRIBUTORS.md)
+//
+// SPDX-License-Identifier: MIT
+//
+
 framework module llama {
   umbrella header "llama.h"
-  export *
 
+  header "common.h"
+  header "sampling.h"
+  header "log.h"
+  header "grammar-parser.h"
+
+  export *
   module * { export * }
 }

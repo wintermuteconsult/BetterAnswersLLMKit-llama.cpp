@@ -4,13 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/common.h</key>
+		<data>
+		hucKtO+JPUhe3/c3wA/K/2a1gfU=
+		</data>
 		<key>Headers/ggml.h</key>
 		<data>
-		CKx60DBQSDeBs2iwSTGDpKQ1+zw=
+		qsuCkzeKwBnFAIOmz3AXIPfa2kM=
+		</data>
+		<key>Headers/grammar-parser.h</key>
+		<data>
+		RGyClQ/Ka2DSO36xeqWdIIVcbp8=
 		</data>
 		<key>Headers/llama.h</key>
 		<data>
 		MsY59vQN8hhBDTHNyYK/F6SbbBg=
+		</data>
+		<key>Headers/log.h</key>
+		<data>
+		1tbJ1WPRuHyrAQ216S1FC5dT8Ks=
+		</data>
+		<key>Headers/sampling.h</key>
+		<data>
+		rXCrV28tPlNBmbj2Z/euQHyYFjo=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -18,11 +34,11 @@
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		rWbOgw/lOd3UHf/VgObUGsJbK8A=
+		atr4KDk8dgyDELIW1uC9vCC1OLY=
 		</data>
 		<key>default.metallib</key>
 		<data>
-		SzDNehNYd6pjaAr9z0Q8tveSeX4=
+		DxvWFSgWedCYHR+tQ7u50519Sl0=
 		</data>
 		<key>ggml-metal.dat</key>
 		<data>
@@ -31,11 +47,25 @@
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/common.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EbnEDJUwrgnFikwajd/dKrHhA0f24Fz68VoWFeF6fEY=
+			</data>
+		</dict>
 		<key>Headers/ggml.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RMyNW+ZeobOk9obSps/bfLncKL2k9+N90QzHgHf/FvE=
+			HV03QNSEIpGx8Qa0TiEB0ckTcewPVNj3kkih3dFOSuU=
+			</data>
+		</dict>
+		<key>Headers/grammar-parser.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZGQBEnYU3HrvwLQZYT38vF43D9t3j1hAB6WQkKyTZDo=
 			</data>
 		</dict>
 		<key>Headers/llama.h</key>
@@ -45,18 +75,32 @@
 			WN0yO0knSrCOKiOEA2rX+1qFwrfI3IqSuSEocihoaX4=
 			</data>
 		</dict>
+		<key>Headers/log.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ChX9XttqSDj8KbmPZ58iXhYfSKz8n9OHr6cVOh92Jus=
+			</data>
+		</dict>
+		<key>Headers/sampling.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			3NrW+y0Gud5t9OVsjLxEXRIxHzKJiB3dqauxZ8Gjf1Q=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tm4YU9Tg53bdBxjlVfaIE5bhnkvs7HQpzkzFYiESjI4=
+			2EwnoVaiIWDkr6Jdzmfk9/wnHpfgj++w36fb3M7XmdQ=
 			</data>
 		</dict>
 		<key>default.metallib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			hbelEQ6VDfWukgVk1i8EvVOnDPv0UwwSsYRv4PuiGJI=
+			aSGCGEjJ5RsQF40sY2heckzQhxM475+I+yjrYM8MDws=
 			</data>
 		</dict>
 		<key>ggml-metal.dat</key>
