@@ -32,9 +32,15 @@
 } while(0)
 
 // build info
-// Remove these external build flags as they are injected as preprocessor macro's from the Xcode project
-// extern int LLAMA_BUILD_NUMBER;
-// extern char const *LLAMA_COMMIT;
+// If macro is not defined (passed via Xcode), set the corresponding variable as defined via external variable.
+#ifndef LLAMA_BUILD_NUMBER
+extern int LLAMA_BUILD_NUMBER;
+#endif
+
+#ifndef LLAMA_COMMIT
+extern char const *LLAMA_COMMIT;
+#endif
+
 extern char const *LLAMA_COMPILER;
 extern char const *LLAMA_BUILD_TARGET;
 
@@ -200,6 +206,10 @@ std::string llama_detokenize_spm(
 std::string llama_detokenize_bpe(
                          llama_context * ctx,
         const std::vector<llama_token> & tokens);
+
+// Uses the value from the model metadata if possible, otherwise
+// defaults to true when model type is SPM, otherwise false.
+bool llama_should_add_bos_token(const llama_model * model);
 
 //
 // YAML utils
