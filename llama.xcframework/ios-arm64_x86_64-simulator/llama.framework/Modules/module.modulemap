@@ -13,6 +13,8 @@ framework module llama {
   header "sampling.h"
   header "log.h"
   header "grammar-parser.h"
+  header "tokenize.h"
+  header "vector.h"
 
   export *
   module * { export * }

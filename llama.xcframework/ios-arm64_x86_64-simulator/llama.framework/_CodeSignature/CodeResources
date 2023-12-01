@@ -6,11 +6,11 @@
 	<dict>
 		<key>Headers/common.h</key>
 		<data>
-		S/8acOZGuql9xtbuko2CaeDl9aA=
+		rf14e3Q6qpvrZX8eheB1aspSXUs=
 		</data>
 		<key>Headers/ggml.h</key>
 		<data>
-		fBM4h51F5wB3thyfk+Sj4C8R7mI=
+		R2aeq2adW9JGYn4ozrI6DW2G7XI=
 		</data>
 		<key>Headers/grammar-parser.h</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/llama.h</key>
 		<data>
-		7Y8jz1w4YKDBVUJoK73jFeLK1JY=
+		Cgss2M4RkzmDYY0OqtgI7ROzFto=
 		</data>
 		<key>Headers/log.h</key>
 		<data>
@@ -28,13 +28,21 @@
 		<data>
 		rXCrV28tPlNBmbj2Z/euQHyYFjo=
 		</data>
+		<key>Headers/tokenize.h</key>
+		<data>
+		4+UZgLFkmr9R4LmEeO4aUKrBiQQ=
+		</data>
+		<key>Headers/vector.h</key>
+		<data>
+		hNjPw11RWceCFywmNFIm3NY9uj4=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		us6sWgoEFK94jNI+oJqvZDDtdTw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		atr4KDk8dgyDELIW1uC9vCC1OLY=
+		cRLcYZrRPoNY51D5f4mvxPV5xOw=
 		</data>
 		<key>default.metallib</key>
 		<data>
@@ -51,14 +59,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			CQnTej8fFTdS16CSu3wTa0KLjfYLcJH69bwWDa+x4l4=
+			H7cg272ttUYddA16yxcQDlZiLBMWWspDd7cqop9wAcs=
 			</data>
 		</dict>
 		<key>Headers/ggml.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			r+uICpm2QNhaWvWd37DFANgLyNNuwCSL3gBw/lfvgVY=
+			+zkXoVbC/J2rxFh6kf4qZ3LUyxT+7w2D3HQ+u2vxGZU=
 			</data>
 		</dict>
 		<key>Headers/grammar-parser.h</key>
@@ -72,7 +80,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			FSHrCxm0R2JNH915js68Q0mYMyLn12QH8B0oJDgCe3s=
+			ZcFI2fTDPAUXSQ9pB9hbMLiLKhrQleZAR9qfC5BkTvc=
 			</data>
 		</dict>
 		<key>Headers/log.h</key>
@@ -89,11 +97,25 @@
 			3NrW+y0Gud5t9OVsjLxEXRIxHzKJiB3dqauxZ8Gjf1Q=
 			</data>
 		</dict>
+		<key>Headers/tokenize.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V/dNu95+bR1zdfXev3yXYpQezyFccynCYmDR8RyBXzc=
+			</data>
+		</dict>
+		<key>Headers/vector.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cZ9Iqs2ysi/8ZrobbqbQ3+156n4gI2U3ocaorK3C4AU=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			2EwnoVaiIWDkr6Jdzmfk9/wnHpfgj++w36fb3M7XmdQ=
+			CqJJfiWIk28AhsmMlRerM9MZOVAcflGpnXIJ9vR595U=
 			</data>
 		</dict>
 		<key>default.metallib</key>
