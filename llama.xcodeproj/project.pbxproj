@@ -18,22 +18,22 @@
 		2F0E44382BE413A7008753C8 /* unicode.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E44302BE413A7008753C8 /* unicode.cpp */; };
 		2F0E443A2BE413C9008753C8 /* ggml-metal.metal in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E44392BE413C9008753C8 /* ggml-metal.metal */; };
 		2F0E443F2BE41418008753C8 /* llama.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E443B2BE41418008753C8 /* llama.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F0E44402BE41418008753C8 /* ggml.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E443C2BE41418008753C8 /* ggml.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F0E44412BE41418008753C8 /* ggml-backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E443D2BE41418008753C8 /* ggml-backend.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2F0E44422BE41418008753C8 /* ggml-alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E443E2BE41418008753C8 /* ggml-alloc.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F0E44402BE41418008753C8 /* ggml.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E443C2BE41418008753C8 /* ggml.h */; };
+		2F0E44412BE41418008753C8 /* ggml-backend.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E443D2BE41418008753C8 /* ggml-backend.h */; };
+		2F0E44422BE41418008753C8 /* ggml-alloc.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E443E2BE41418008753C8 /* ggml-alloc.h */; };
 		2F0E44582BE4163C008753C8 /* base64.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E44432BE4163C008753C8 /* base64.hpp */; };
 		2F0E44592BE4163C008753C8 /* build-info.cpp.in in Resources */ = {isa = PBXBuildFile; fileRef = 2F0E44442BE4163C008753C8 /* build-info.cpp.in */; };
 		2F0E445A2BE4163C008753C8 /* CMakeLists.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2F0E44452BE4163C008753C8 /* CMakeLists.txt */; };
 		2F0E445B2BE4163C008753C8 /* common.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E44462BE4163C008753C8 /* common.cpp */; };
-		2F0E445C2BE4163C008753C8 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E44472BE4163C008753C8 /* common.h */; };
+		2F0E445C2BE4163C008753C8 /* common.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E44472BE4163C008753C8 /* common.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0E445D2BE4163C008753C8 /* console.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E44482BE4163C008753C8 /* console.cpp */; };
 		2F0E445E2BE4163C008753C8 /* console.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E44492BE4163C008753C8 /* console.h */; };
 		2F0E445F2BE4163C008753C8 /* grammar-parser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E444A2BE4163C008753C8 /* grammar-parser.cpp */; };
-		2F0E44602BE4163C008753C8 /* grammar-parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E444B2BE4163C008753C8 /* grammar-parser.h */; };
+		2F0E44602BE4163C008753C8 /* grammar-parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E444B2BE4163C008753C8 /* grammar-parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0E44612BE4163C008753C8 /* json-schema-to-grammar.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E444C2BE4163C008753C8 /* json-schema-to-grammar.cpp */; };
 		2F0E44622BE4163C008753C8 /* json-schema-to-grammar.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E444D2BE4163C008753C8 /* json-schema-to-grammar.h */; };
 		2F0E44632BE4163C008753C8 /* json.hpp in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E444E2BE4163C008753C8 /* json.hpp */; };
-		2F0E44642BE4163C008753C8 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E444F2BE4163C008753C8 /* log.h */; };
+		2F0E44642BE4163C008753C8 /* log.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E444F2BE4163C008753C8 /* log.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2F0E44652BE4163C008753C8 /* ngram-cache.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E44502BE4163C008753C8 /* ngram-cache.cpp */; };
 		2F0E44662BE4163C008753C8 /* ngram-cache.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F0E44512BE4163C008753C8 /* ngram-cache.h */; };
 		2F0E44672BE4163C008753C8 /* sampling.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2F0E44522BE4163C008753C8 /* sampling.cpp */; };
@@ -198,22 +198,22 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F0E44642BE4163C008753C8 /* log.h in Headers */,
 				2F0E44632BE4163C008753C8 /* json.hpp in Headers */,
 				2F0E445E2BE4163C008753C8 /* console.h in Headers */,
-				2F0E44602BE4163C008753C8 /* grammar-parser.h in Headers */,
 				2F0E446B2BE4163C008753C8 /* train.h in Headers */,
+				2F0E44642BE4163C008753C8 /* log.h in Headers */,
+				2F0E44602BE4163C008753C8 /* grammar-parser.h in Headers */,
 				97B76BF82B199E890019D706 /* vector.h in Headers */,
-				2F0E443F2BE41418008753C8 /* llama.h in Headers */,
+				2F0E445C2BE4163C008753C8 /* common.h in Headers */,
+				2F0E44412BE41418008753C8 /* ggml-backend.h in Headers */,
 				2F0E44422BE41418008753C8 /* ggml-alloc.h in Headers */,
 				2F0E44402BE41418008753C8 /* ggml.h in Headers */,
-				2F0E44412BE41418008753C8 /* ggml-backend.h in Headers */,
+				2F0E443F2BE41418008753C8 /* llama.h in Headers */,
 				2F0E44682BE4163C008753C8 /* sampling.h in Headers */,
 				2F0E44662BE4163C008753C8 /* ngram-cache.h in Headers */,
 				2F0E44582BE4163C008753C8 /* base64.hpp in Headers */,
 				2F0E44692BE4163C008753C8 /* stb_image.h in Headers */,
 				97B76BF72B199E890019D706 /* tokenize.h in Headers */,
-				2F0E445C2BE4163C008753C8 /* common.h in Headers */,
 				2F0E44622BE4163C008753C8 /* json-schema-to-grammar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
