@@ -56,6 +56,11 @@ struct llama_control_vector_load_info;
 int get_math_cpu_count();
 int32_t get_num_physical_cores();
 
+struct llama_control_vector_load_info;
+
+int get_math_cpu_count();
+int32_t get_num_physical_cores();
+
 //
 // CLI argument parsing
 //
