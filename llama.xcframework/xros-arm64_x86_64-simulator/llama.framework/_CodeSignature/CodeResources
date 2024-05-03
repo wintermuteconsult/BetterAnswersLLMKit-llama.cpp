@@ -10,7 +10,15 @@
 		</data>
 		<key>Headers/common.h</key>
 		<data>
-		fX+iHcAtUJ8ZopHtwJgmDEOTo30=
+		41uQJhbKGLtZQKn6vuzkvMxuX8E=
+		</data>
+		<key>Headers/ggml-alloc.h</key>
+		<data>
+		vNp6+esm7Vfd5pJFMI9jga+dIXY=
+		</data>
+		<key>Headers/ggml-backend.h</key>
+		<data>
+		clGeEdYaaBUhepHURs9cEnx+bTw=
 		</data>
 		<key>Headers/ggml.h</key>
 		<data>
@@ -18,27 +26,27 @@
 		</data>
 		<key>Headers/grammar-parser.h</key>
 		<data>
-		RGyClQ/Ka2DSO36xeqWdIIVcbp8=
+		vf7i7+E0NU9uBWLsgjRam4jcF6Y=
 		</data>
 		<key>Headers/llama.h</key>
 		<data>
-		9mk8zjxVR+H3JXbdkZXfQKW2CkE=
+		zLDbARRtCfUbSVLHeBJ2hwkLAkw=
 		</data>
 		<key>Headers/log.h</key>
 		<data>
-		K0dkbA7D4BU4eezOUPtiWvnJj9w=
+		MEJGwM/L29Y8h3+1RuF7NiAzE1M=
 		</data>
 		<key>Headers/sampling.h</key>
 		<data>
-		nH8Edcu8URa+pq7Numy0G8Ep0Nw=
+		NyXXZVJqmy9Y30Fxi7A7cwMS2cQ=
 		</data>
 		<key>Headers/tokenize.h</key>
 		<data>
-		CUTT/1SReodkHFAZPtBS/qkksvg=
+		YCkwv2ZA91GYYeAC9zhwBeJbWcw=
 		</data>
 		<key>Headers/vector.h</key>
 		<data>
-		r+1ub2uvhq3PApXU2liOt+S8cyw=
+		TFhI80aEbBMiYwkloUyHBWldfA0=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -47,6 +55,66 @@
 		<key>Modules/module.modulemap</key>
 		<data>
 		cRLcYZrRPoNY51D5f4mvxPV5xOw=
+		</data>
+		<key>PrivateHeaders/base64.hpp</key>
+		<data>
+		WweOKiAGMafIgxRrFF8x8F0A388=
+		</data>
+		<key>PrivateHeaders/console.h</key>
+		<data>
+		pPa5MzesKHOh8dtyFvA2tO5Hzjk=
+		</data>
+		<key>PrivateHeaders/ggml-backend-impl.h</key>
+		<data>
+		gchAf3bGlwlvX9Uqwp94QozbjiI=
+		</data>
+		<key>PrivateHeaders/ggml-common.h</key>
+		<data>
+		0JAH9yQZXXyQKrcvR9VJqr86ARY=
+		</data>
+		<key>PrivateHeaders/ggml-impl.h</key>
+		<data>
+		VKEhJspQS9SJ7c+3K2smNJqrC0k=
+		</data>
+		<key>PrivateHeaders/ggml-metal.h</key>
+		<data>
+		bXVrjSX/oAbDYdKh56TszKkSP+g=
+		</data>
+		<key>PrivateHeaders/ggml-quants.h</key>
+		<data>
+		qXtixsK8PKVe7sUUyxlzmWqHOcc=
+		</data>
+		<key>PrivateHeaders/json-schema-to-grammar.h</key>
+		<data>
+		GtoOFeFL8c0A3IeNuyhq9WwIjsk=
+		</data>
+		<key>PrivateHeaders/json.hpp</key>
+		<data>
+		uU+H/1fO35wb1H0+xC5KXxQkaM4=
+		</data>
+		<key>PrivateHeaders/ngram-cache.h</key>
+		<data>
+		RGV2tTmd74bMNmQXUNNAmr7CerA=
+		</data>
+		<key>PrivateHeaders/sgemm.h</key>
+		<data>
+		VeESxlLNjVwHFwBw3155NvTRgzA=
+		</data>
+		<key>PrivateHeaders/stb_image.h</key>
+		<data>
+		DNkyJompw6LOoodSsvSyhGjvHss=
+		</data>
+		<key>PrivateHeaders/train.h</key>
+		<data>
+		qmGQnptBN2FnQXRM17l96gN5mf0=
+		</data>
+		<key>PrivateHeaders/unicode-data.h</key>
+		<data>
+		3CflJzXBtRLoJonCLDFipNBqavg=
+		</data>
+		<key>PrivateHeaders/unicode.h</key>
+		<data>
+		doGBjVlPIQYwoREtSJfS6TQ5mCc=
 		</data>
 		<key>build-info.cpp.in</key>
 		<data>
@@ -70,7 +138,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			P3yk3MrfR0QzzjyyR42QvQMK4wyoSkZPJQE25UEbejs=
+			gIYyndSmzzDmSuxAJmiFaB49uMj6fxDZaQEJhhihH9E=
+			</data>
+		</dict>
+		<key>Headers/ggml-alloc.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			mtiqAGnHRp3EJlQoFEDJMxFDOSj3jD5tsloAtYvqbTE=
+			</data>
+		</dict>
+		<key>Headers/ggml-backend.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			FyKQmPD8O7bqUPiD7K6DEnSq6gLnXZl8+15Pv7/I9Tw=
 			</data>
 		</dict>
 		<key>Headers/ggml.h</key>
@@ -84,42 +166,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ZGQBEnYU3HrvwLQZYT38vF43D9t3j1hAB6WQkKyTZDo=
+			n8WVRUTfzUU3z1KlJHhBGbjHzNFa8giGhSUO4WgBq94=
 			</data>
 		</dict>
 		<key>Headers/llama.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+tQ+YJn/Eek8hNF0UJFmDLUWmiHTLh6yd9CEt7CJB7A=
+			lF3rMhERe7lmi41lP8OzsIYg8q1tSy8Tij1x1GZqDhE=
 			</data>
 		</dict>
 		<key>Headers/log.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zd8mkLzt9Rs/q6JEPB9HYawonJxcpkMipv8xiwl9N+o=
+			mzEZlu1piyYrVc4xSL543qs56+YA10JJzY04vRZ1gYI=
 			</data>
 		</dict>
 		<key>Headers/sampling.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			73gHI6sjgkmUNIoE1mAisTcPIjmj9S5OebWkRrGqVBY=
+			HZxIGpmIeoT6tiAY3g63YiN6YXTR0pmVFyxvXjCkX+o=
 			</data>
 		</dict>
 		<key>Headers/tokenize.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sIxnuhF0nM4puOIW7vINm4y89Uo+3H9tXWXoPwcyzj0=
+			jWjRHMvT11eCLYwOWoGxN/RW676B4ARJHw2Ip8b0MzY=
 			</data>
 		</dict>
 		<key>Headers/vector.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xikGRNVFjz6wBMJrC3JBQg1AAdJKr5d1f6jD7yYY5RQ=
+			aSbU7EdHKtj2UzBIEpzhsF4vU8hBWq0ffFNMnTSyAdc=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -127,6 +209,111 @@
 			<key>hash2</key>
 			<data>
 			CqJJfiWIk28AhsmMlRerM9MZOVAcflGpnXIJ9vR595U=
+			</data>
+		</dict>
+		<key>PrivateHeaders/base64.hpp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			V/WVqgogbE3smoS5CjQWAookLaTdjyGa/AhZpsy37+c=
+			</data>
+		</dict>
+		<key>PrivateHeaders/console.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gH9As3at65TWVxFzN81D6+E/sQAcBq1wAM9YUqIk/IA=
+			</data>
+		</dict>
+		<key>PrivateHeaders/ggml-backend-impl.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			jHiKxczqLDU4lIH2uXiRjz6OOSseiQIk6kFslIxSkT4=
+			</data>
+		</dict>
+		<key>PrivateHeaders/ggml-common.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			rMZhFrhn9rDYWvG5F4YAm6DZ9saBaSr9XTCrSPI/PTE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/ggml-impl.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			qoPT6zWeag8jB799kVdT/ldsiE7Rc0JmYkTYGlsr/YE=
+			</data>
+		</dict>
+		<key>PrivateHeaders/ggml-metal.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bSFQo5C+9lwnhudKRBnvXWpwKz40pTWeKKAplonNwpQ=
+			</data>
+		</dict>
+		<key>PrivateHeaders/ggml-quants.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			agfT/A/FZNdbPlnXYQFQL4j+anqUO1SvLqMDSE5F5fs=
+			</data>
+		</dict>
+		<key>PrivateHeaders/json-schema-to-grammar.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			krdvy4j8eQvcpJh5KRZot17DwDsiTL8Yx+1ONYLendg=
+			</data>
+		</dict>
+		<key>PrivateHeaders/json.hpp</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			W0s3MI1n+YILWSZIY3QkYFT90Guq6FMJuCCoMV8jyso=
+			</data>
+		</dict>
+		<key>PrivateHeaders/ngram-cache.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			4fvSPLA5I3MCfWBPHwgkV7+Ib9J04lD2GcFowamwN1c=
+			</data>
+		</dict>
+		<key>PrivateHeaders/sgemm.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			c88H/7X7+1CzURwUIUGjd5GGhzhy6zTscy/1wNiWdWA=
+			</data>
+		</dict>
+		<key>PrivateHeaders/stb_image.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UUMsAG1Zol+rTuOwxmG+Oy/O13bRbmGuCHrAJiJhylU=
+			</data>
+		</dict>
+		<key>PrivateHeaders/train.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			o42B+ToNZquMrzqbwsT8lN41e2rPcbPH2UyYtvtekvY=
+			</data>
+		</dict>
+		<key>PrivateHeaders/unicode-data.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RBGqZMzH79zggdGT0icarcWJAPSpUvjODkSSvU0ybXo=
+			</data>
+		</dict>
+		<key>PrivateHeaders/unicode.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8mFNZEWa5HrtSp5z6MHi2izLpVDy5hMJKATX0aEGRfY=
 			</data>
 		</dict>
 		<key>build-info.cpp.in</key>
