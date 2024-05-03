@@ -12,6 +12,10 @@
 		<data>
 		fX+iHcAtUJ8ZopHtwJgmDEOTo30=
 		</data>
+		<key>Headers/ggml.h</key>
+		<data>
+		tQvfbMj1e+TzUt4cr79op/SNsbk=
+		</data>
 		<key>Headers/grammar-parser.h</key>
 		<data>
 		RGyClQ/Ka2DSO36xeqWdIIVcbp8=
@@ -23,6 +27,10 @@
 		<key>Headers/log.h</key>
 		<data>
 		K0dkbA7D4BU4eezOUPtiWvnJj9w=
+		</data>
+		<key>Headers/sampling.h</key>
+		<data>
+		nH8Edcu8URa+pq7Numy0G8Ep0Nw=
 		</data>
 		<key>Headers/tokenize.h</key>
 		<data>
@@ -65,6 +73,13 @@
 			P3yk3MrfR0QzzjyyR42QvQMK4wyoSkZPJQE25UEbejs=
 			</data>
 		</dict>
+		<key>Headers/ggml.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			emoRQSLJfx5C2pLPDu9y8iRoY5CWazQ4cXL935TjnBE=
+			</data>
+		</dict>
 		<key>Headers/grammar-parser.h</key>
 		<dict>
 			<key>hash2</key>
@@ -84,6 +99,13 @@
 			<key>hash2</key>
 			<data>
 			zd8mkLzt9Rs/q6JEPB9HYawonJxcpkMipv8xiwl9N+o=
+			</data>
+		</dict>
+		<key>Headers/sampling.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			73gHI6sjgkmUNIoE1mAisTcPIjmj9S5OebWkRrGqVBY=
 			</data>
 		</dict>
 		<key>Headers/tokenize.h</key>
