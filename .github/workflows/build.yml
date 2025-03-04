@@ -19,7 +19,7 @@ jobs:
       xcFrameworkName: llama
       scheme: llama
       dryRun: true
-      sdk: '["iphoneos", "iphonesimulator", "macosx", "xros", "xrsimulator"]'
+      sdk: '["iphoneos", "iphonesimulator", "macosx"]'
       version: 0.1.0
       configuration: Release
       runsonlabels: '["macOS", "self-hosted"]'
