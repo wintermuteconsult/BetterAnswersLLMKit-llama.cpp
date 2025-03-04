@@ -1,10 +1,3 @@
-#
-# This source file is part of the Stanford Biodesign Digital Health Group open-source organization
-#
-# SPDX-FileCopyrightText: 2022 Stanford University and the project authors (see CONTRIBUTORS.md)
-#
-# SPDX-License-Identifier: MIT
-#
 
 name: Create XCFramework and Release
 
@@ -18,12 +11,12 @@ on:
 
 jobs:
   create-xcframework-and-release-workflow:
-    uses: StanfordBDHG/.github/.github/workflows/xcframework.yml@v2
+    uses: wintermuteconsult/.github/.github/workflows/xcframework.yml@v2
     with:
       workspaceFile: llama.xcworkspace
       xcFrameworkName: llama
       scheme: llama
-      sdk: '["iphoneos", "iphonesimulator", "macosx", "xros", "xrsimulator"]'
+      sdk: '["iphoneos", "iphonesimulator", "macosx"]'
       version: ${{ inputs.version }}
       configuration: Release
       runsonlabels: '["macOS", "self-hosted"]'
